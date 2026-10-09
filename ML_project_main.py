@@ -17,6 +17,7 @@ import sqlite3
 import hashlib
 import time
 import chardet
+from sklearn.neural_network import MLPRegressor
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -24,13 +25,15 @@ try:
     from tensorflow.keras.callbacks import EarlyStopping
     from tensorflow.keras.models import Sequential
     from tensorflow.keras.layers import LSTM, Dense
-except ImportError:
+    HAS_TF = True
+except Exception:
     try:
         from keras.callbacks import EarlyStopping
         from keras.models import Sequential
         from keras.layers import LSTM, Dense
-    except ImportError:
-        pass
+        HAS_TF = True
+    except Exception:
+        HAS_TF = False
 
 # Page Configuration
 st.set_page_config(
@@ -721,9 +724,15 @@ def app():
 
                     f_col1, f_col2 = st.columns([1, 1])
                     with f_col1:
+                        model_options = [
+                            "Linear Regression", 
+                            "Random Forest Regressor", 
+                            "ARIMA Time Series", 
+                            "LSTM Deep Learning" if HAS_TF else "Neural Network (MLP)"
+                        ]
                         model_type = st.selectbox(
                             f"Select Forecasting Model for {name}:",
-                            ["Linear Regression", "Random Forest Regressor", "ARIMA Time Series", "LSTM Deep Learning"],
+                            model_options,
                             key=f"model_type_{index}"
                         )
                     with f_col2:
@@ -776,7 +785,7 @@ def app():
                             y_pred = np.full(len(y_test), y_train.mean())
                             future_predictions = np.full(forecast_horizon, y_train.mean())
 
-                    elif model_type == "LSTM Deep Learning":
+                    elif model_type in ["LSTM Deep Learning", "Neural Network (MLP)"]:
                         scaler = MinMaxScaler(feature_range=(0, 1))
                         scaled_series = scaler.fit_transform(dataset[['Sales']].values)
                         time_steps = min(7, len(scaled_series) // 4) if len(scaled_series) >= 12 else 2
@@ -787,35 +796,55 @@ def app():
                                 X_lstm.append(scaled_series[i:i + time_steps, 0])
                                 y_lstm.append(scaled_series[i + time_steps, 0])
                             X_lstm, y_lstm = np.array(X_lstm), np.array(y_lstm)
-                            X_lstm = X_lstm.reshape((X_lstm.shape[0], X_lstm.shape[1], 1))
 
                             split_lstm = int(len(X_lstm) * 0.8)
                             X_tr_l, X_te_l = X_lstm[:split_lstm], X_lstm[split_lstm:]
                             y_tr_l, y_te_l = y_lstm[:split_lstm], y_lstm[split_lstm:]
 
-                            lstm_model = Sequential([
-                                LSTM(16, input_shape=(time_steps, 1), return_sequences=False),
-                                Dense(1)
-                            ])
-                            lstm_model.compile(optimizer='adam', loss='mean_squared_error')
-                            lstm_model.fit(X_tr_l, y_tr_l, epochs=6, batch_size=16, verbose=0)
-                            
-                            pred_scaled = lstm_model.predict(X_te_l, verbose=0)
-                            y_pred = scaler.inverse_transform(pred_scaled).flatten()
-                            y_test = scaler.inverse_transform(y_te_l.reshape(-1, 1)).flatten()
+                            if HAS_TF and model_type == "LSTM Deep Learning":
+                                X_tr_tf = X_tr_l.reshape((X_tr_l.shape[0], X_tr_l.shape[1], 1))
+                                X_te_tf = X_te_l.reshape((X_te_l.shape[0], X_te_l.shape[1], 1))
 
-                            # Future rolling projection
-                            curr_seq = scaled_series[-time_steps:].reshape(1, time_steps, 1)
-                            fut_preds = []
-                            for _ in range(forecast_horizon):
-                                nxt = lstm_model.predict(curr_seq, verbose=0)[0, 0]
-                                fut_preds.append(nxt)
-                                curr_seq = np.roll(curr_seq, -1, axis=1)
-                                curr_seq[0, -1, 0] = nxt
-                            future_predictions = scaler.inverse_transform(np.array(fut_preds).reshape(-1, 1)).flatten()
-                            st.info("LSTM neural network identifies sequential long-term dependencies across historical cycles.")
+                                lstm_model = Sequential([
+                                    LSTM(16, input_shape=(time_steps, 1), return_sequences=False),
+                                    Dense(1)
+                                ])
+                                lstm_model.compile(optimizer='adam', loss='mean_squared_error')
+                                lstm_model.fit(X_tr_tf, y_tr_tf, epochs=6, batch_size=16, verbose=0)
+                                
+                                pred_scaled = lstm_model.predict(X_te_tf, verbose=0)
+                                y_pred = scaler.inverse_transform(pred_scaled).flatten()
+                                y_test = scaler.inverse_transform(y_te_l.reshape(-1, 1)).flatten()
+
+                                # Future rolling projection
+                                curr_seq = scaled_series[-time_steps:].reshape(1, time_steps, 1)
+                                fut_preds = []
+                                for _ in range(forecast_horizon):
+                                    nxt = lstm_model.predict(curr_seq, verbose=0)[0, 0]
+                                    fut_preds.append(nxt)
+                                    curr_seq = np.roll(curr_seq, -1, axis=1)
+                                    curr_seq[0, -1, 0] = nxt
+                                future_predictions = scaler.inverse_transform(np.array(fut_preds).reshape(-1, 1)).flatten()
+                                st.info("LSTM neural network identifies sequential long-term dependencies across historical cycles.")
+                            else:
+                                mlp = MLPRegressor(hidden_layer_sizes=(32, 16), max_iter=300, random_state=42)
+                                mlp.fit(X_tr_l, y_tr_l)
+                                pred_scaled = mlp.predict(X_te_l)
+                                y_pred = scaler.inverse_transform(pred_scaled.reshape(-1, 1)).flatten()
+                                y_test = scaler.inverse_transform(y_te_l.reshape(-1, 1)).flatten()
+
+                                # Future rolling projection
+                                curr_seq = scaled_series[-time_steps:].reshape(1, -1)
+                                fut_preds = []
+                                for _ in range(forecast_horizon):
+                                    nxt = mlp.predict(curr_seq)[0]
+                                    fut_preds.append(nxt)
+                                    curr_seq = np.roll(curr_seq, -1, axis=1)
+                                    curr_seq[0, -1] = nxt
+                                future_predictions = scaler.inverse_transform(np.array(fut_preds).reshape(-1, 1)).flatten()
+                                st.info("Multi-Layer Neural Network (MLP) identifies sequential non-linear demand dependencies (cloud-optimized).")
                         else:
-                            st.warning("Not enough consecutive observations for multi-step LSTM training; fallback to moving average.")
+                            st.warning("Not enough consecutive observations for sequential neural network training; fallback to moving average.")
                             y_pred = np.full(len(y_test), y.mean())
                             future_predictions = np.full(forecast_horizon, y.mean())
 

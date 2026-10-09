@@ -7,6 +7,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from statsmodels.tsa.arima.model import ARIMA
+from sklearn.neural_network import MLPRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 class TestInventoryMLFramework(unittest.TestCase):
@@ -129,6 +130,21 @@ class TestInventoryMLFramework(unittest.TestCase):
         forecast = fitted.forecast(steps=10)
         self.assertEqual(len(forecast), 10)
         self.assertFalse(np.isnan(forecast).any())
+
+    def test_neural_network_pipeline(self):
+        series = np.array([50 + i * 2 + (i % 3) * 5 for i in range(40)])
+        time_steps = 4
+        X_seq, y_seq = [], []
+        for i in range(len(series) - time_steps):
+            X_seq.append(series[i:i + time_steps])
+            y_seq.append(series[i + time_steps])
+        X_seq, y_seq = np.array(X_seq), np.array(y_seq)
+        
+        mlp = MLPRegressor(hidden_layer_sizes=(16, 8), max_iter=300, random_state=42)
+        mlp.fit(X_seq[:28], y_seq[:28])
+        preds = mlp.predict(X_seq[28:])
+        self.assertEqual(len(preds), len(y_seq[28:]))
+        self.assertFalse(np.isnan(preds).any())
 
     def test_datasets_exist_and_readable(self):
         dataset_files = [
