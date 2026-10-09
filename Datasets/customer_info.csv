@@ -1,0 +1,300 @@
+ID,Gender,Ever_Married,Age,Graduated,Profession,Spending_Score,Segmentation,Payment_method,Purchase_Date
+462809,Male,No,22,No,Healthcare,Low,D,Cash,8/1/2024
+462643,Female,Yes,38,Yes,Engineer,Average,A,Debit Card,8/2/2024
+466315,Female,Yes,67,Yes,Engineer,Low,B,Debit Card,8/3/2024
+461735,Male,Yes,67,Yes,Lawyer,High,B,Debit Card,8/4/2024
+462669,Female,Yes,40,Yes,Entertainment,High,A,Cash,8/5/2024
+461319,Male,Yes,56,No,Artist,Average,C,Credit Card,8/6/2024
+460156,Male,No,32,Yes,Healthcare,Low,C,Credit Card,8/7/2024
+464347,Female,No,33,Yes,Healthcare,Low,D,Online Payment,8/8/2024
+465015,Female,Yes,61,Yes,Engineer,Low,D,Debit Card,8/9/2024
+465176,Female,Yes,55,Yes,Artist,Average,C,Debit Card,8/10/2024
+464041,Female,No,26,Yes,Engineer,Low,A,Credit Card,8/11/2024
+464942,Male,No,19,No,Healthcare,Low,D,Cash,8/12/2024
+461230,Female,No,19,No,Executive,Low,D,Online Payment,8/13/2024
+459573,Male,Yes,70,No,Lawyer,Low,A,Online Payment,8/14/2024
+460849,Female,Yes,58,No,Doctor,Low,B,Credit Card,8/15/2024
+460563,Female,No,41,No,Healthcare,Low,C,Credit Card,8/16/2024
+466865,Female,No,32,No,Homemaker,Low,D,Online Payment,8/17/2024
+461644,Male,No,31,No,Healthcare,Low,B,Credit Card,8/18/2024
+466772,Male,Yes,58,Yes,Entertainment,Average,B,Debit Card,8/19/2024
+464291,Female,Yes,79,Yes,Artist,High,C,Cash,8/20/2024
+466084,Male,Yes,49,Yes,Homemaker,Low,A,Credit Card,8/21/2024
+459675,Female,No,18,No,Healthcare,Low,D,Online Payment,8/22/2024
+465602,Male,Yes,33,Yes,Artist,Low,A,Online Payment,8/23/2024
+459168,Female,No,36,Yes,Artist,Low,B,Online Payment,8/24/2024
+461021,Female,Yes,58,No,Executive,Average,B,Credit Card,8/25/2024
+465083,Male,Yes,56,No,Artist,Average,C,Credit Card,8/26/2024
+467604,Male,No,31,No,Healthcare,Low,A,Online Payment,8/27/2024
+459717,Male,Yes,49,Yes,Artist,Average,C,Cash,8/28/2024
+465882,Male,No,35,Yes,Artist,Low,B,Online Payment,8/29/2024
+461996,Female,No,35,No,Artist,Low,C,Debit Card,8/30/2024
+463331,Female,Yes,45,Yes,Artist,Low,C,Cash,8/31/2024
+462216,Female,Yes,42,No,Doctor,Low,A,Credit Card,9/1/2024
+462454,Male,No,19,No,Healthcare,Low,D,Debit Card,9/2/2024
+467010,Male,No,26,No,Homemaker,Low,D,Online Payment,9/3/2024
+459861,Female,Yes,83,No,Lawyer,High,D,Online Payment,9/4/2024
+467917,Female,No,27,Yes,Healthcare,Low,D,Cash,9/5/2024
+465572,Male,No,32,No,Doctor,Low,D,Online Payment,9/6/2024
+460593,Female,Yes,28,No,Healthcare,Average,D,Credit Card,9/7/2024
+465891,Female,Yes,28,Yes,Artist,Low,A,Cash,9/8/2024
+467442,Male,Yes,56,Yes,Artist,Average,C,Cash,9/9/2024
+462044,Female,No,47,Yes,Artist,Low,B,Online Payment,9/10/2024
+465686,Female,No,22,No,Healthcare,Low,D,Credit Card,9/11/2024
+464590,Female,No,27,Yes,Artist,Low,A,Credit Card,9/12/2024
+466006,Female,Yes,49,Yes,Artist,Low,C,Debit Card,9/13/2024
+466152,Male,Yes,40,No,Engineer,Low,A,Credit Card,9/14/2024
+463156,Female,Yes,79,No,Lawyer,High,A,Online Payment,9/15/2024
+465729,Male,Yes,41,Yes,Artist,Average,B,Online Payment,9/16/2024
+462384,Female,No,29,Yes,Healthcare,Low,A,Online Payment,9/17/2024
+462442,Male,No,19,No,Healthcare,Low,D,Cash,9/18/2024
+464191,Female,No,45,Yes,Engineer,Low,A,Online Payment,9/19/2024
+462078,Female,Yes,61,No,Artist,Average,B,Debit Card,9/20/2024
+467873,Female,Yes,36,Yes,Artist,Average,C,Credit Card,9/21/2024
+461270,Male,Yes,40,Yes,Artist,Low,A,Cash,9/22/2024
+462960,Female,Yes,57,Yes,Entertainment,Average,C,Cash,9/23/2024
+464961,Male,Yes,76,No,Marketing,Low,A,Debit Card,9/24/2024
+462110,Male,Yes,32,Yes,Artist,Average,B,Debit Card,9/25/2024
+465769,Male,No,25,Yes,Healthcare,Low,D,Online Payment,9/26/2024
+462267,Male,No,32,Yes,Doctor,Low,D,Online Payment,9/27/2024
+465269,Female,Yes,45,Yes,Artist,Average,C,Cash,9/28/2024
+460881,Male,Yes,72,Yes,Lawyer,Low,D,Cash,9/29/2024
+461891,Male,Yes,48,Yes,Artist,Average,C,Cash,9/30/2024
+466935,Male,Yes,55,Yes,Artist,Average,C,Cash,10/1/2024
+464091,Male,Yes,74,Yes,Lawyer,High,D,Debit Card,10/2/2024
+464535,Male,Yes,56,Yes,Lawyer,High,A,Cash,10/3/2024
+463108,Male,Yes,59,Yes,Lawyer,High,A,Credit Card,10/4/2024
+461356,Male,No,25,Yes,Entertainment,Low,A,Cash,10/5/2024
+464570,Male,Yes,31,Yes,Doctor,Average,A,Cash,10/6/2024
+464580,Male,No,27,No,Artist,Low,A,Online Payment,10/7/2024
+465233,Male,Yes,57,Yes,Artist,Average,B,Credit Card,10/8/2024
+467208,Female,Yes,39,Yes,Homemaker,High,A,Cash,10/9/2024
+459954,Male,Yes,27,Yes,Healthcare,Low,D,Cash,10/10/2024
+460219,Female,Yes,51,Yes,Entertainment,Average,A,Credit Card,10/11/2024
+460877,Female,Yes,47,No,Artist,Average,B,Debit Card,10/12/2024
+460191,Female,No,33,No,Healthcare,Low,D,Credit Card,10/13/2024
+463742,Male,Yes,56,Yes,Artist,Average,C,Cash,10/14/2024
+463691,Female,No,33,No,Homemaker,Low,B,Debit Card,10/15/2024
+463250,Female,No,36,Yes,Doctor,Low,D,Debit Card,10/16/2024
+463952,Male,Yes,51,No,Artist,Low,A,Debit Card,10/17/2024
+461558,Male,Yes,45,Yes,Engineer,Average,C,Online Payment,10/18/2024
+466567,Female,No,49,Yes,Artist,Low,D,Credit Card,10/19/2024
+465379,Male,No,30,No,Healthcare,Low,C,Online Payment,10/20/2024
+463814,Female,No,26,No,Healthcare,Low,D,Credit Card,10/21/2024
+466938,Male,Yes,63,Yes,Artist,Low,A,Online Payment,10/22/2024
+460671,Male,Yes,35,No,Entertainment,Average,B,Cash,10/23/2024
+462204,Female,No,19,No,Marketing,Low,A,Debit Card,10/24/2024
+461671,Male,No,32,No,Healthcare,Low,D,Online Payment,10/25/2024
+459384,Male,Yes,52,Yes,Artist,Average,C,Credit Card,10/26/2024
+459905,Female,Yes,36,Yes,Artist,Low,C,Debit Card,10/27/2024
+464734,Female,No,42,No,Entertainment,Low,D,Cash,10/28/2024
+464125,Male,Yes,40,No,Doctor,Average,D,Debit Card,10/29/2024
+467434,Male,No,39,Yes,Entertainment,Low,B,Cash,10/30/2024
+460956,Female,Yes,47,Yes,Artist,Average,C,Credit Card,10/31/2024
+465179,Female,Yes,61,Yes,Artist,High,C,Online Payment,11/1/2024
+463338,Male,Yes,32,No,Entertainment,Low,D,Cash,11/2/2024
+467066,Male,Yes,55,No,Artist,Low,B,Debit Card,11/3/2024
+463845,Male,Yes,58,Yes,Artist,Average,D,Online Payment,11/4/2024
+459976,Female,No,38,Yes,Artist,Low,D,Cash,11/5/2024
+461334,Male,Yes,63,Yes,Artist,High,C,Debit Card,11/6/2024
+465108,Male,Yes,58,Yes,Doctor,Average,C,Debit Card,11/7/2024
+462600,Male,Yes,30,No,Engineer,Average,D,Credit Card,11/8/2024
+464144,Male,Yes,60,Yes,Artist,Average,C,Cash,11/9/2024
+466911,Male,Yes,68,No,Executive,High,B,Debit Card,11/10/2024
+462806,Male,Yes,52,No,Artist,Low,A,Online Payment,11/11/2024
+463426,Male,Yes,38,No,Executive,High,A,Credit Card,11/12/2024
+464065,Female,Yes,35,Yes,Healthcare,Low,B,Cash,11/13/2024
+462979,Male,No,18,No,Doctor,Low,D,Debit Card,11/14/2024
+462834,Male,Yes,30,Yes,Homemaker,Low,D,Credit Card,11/15/2024
+460764,Male,No,86,No,Lawyer,Low,D,Debit Card,11/16/2024
+466466,Female,Yes,19,No,Healthcare,Low,D,Debit Card,11/17/2024
+460185,Male,No,25,No,Healthcare,Low,D,Credit Card,11/18/2024
+459749,Male,Yes,59,Yes,Entertainment,Low,A,Credit Card,11/19/2024
+464406,Female,No,39,Yes,Artist,Low,A,Cash,11/20/2024
+467758,Female,Yes,50,Yes,Doctor,Low,B,Online Payment,11/21/2024
+462059,Male,No,47,Yes,Artist,Low,C,Cash,11/22/2024
+467905,Male,Yes,43,Yes,Executive,High,D,Debit Card,11/23/2024
+461177,Male,Yes,36,No,Executive,Average,B,Credit Card,11/24/2024
+460765,Male,Yes,80,No,Lawyer,Low,D,Debit Card,11/25/2024
+465386,Male,No,36,Yes,Artist,Low,C,Debit Card,11/26/2024
+465827,Male,No,27,No,,Low,D,Credit Card,11/27/2024
+462332,Female,Yes,37,Yes,Artist,High,A,Debit Card,11/28/2024
+464481,Male,Yes,46,Yes,Executive,High,C,Online Payment,11/29/2024
+461011,Male,Yes,55,No,Executive,High,B,Credit Card,11/30/2024
+464749,Female,Yes,47,No,Engineer,Average,B,Debit Card,12/1/2024
+461094,Female,No,28,Yes,Healthcare,Low,D,Online Payment,12/2/2024
+462104,Male,Yes,39,No,Entertainment,Low,D,Cash,12/3/2024
+464524,Female,Yes,27,No,Marketing,Low,A,Online Payment,12/4/2024
+466295,Female,Yes,42,No,Engineer,Low,A,Credit Card,12/5/2024
+461787,Male,Yes,72,Yes,Artist,Average,C,Cash,12/6/2024
+467857,Female,Yes,28,Yes,Engineer,Low,A,Credit Card,12/7/2024
+460153,Male,No,35,Yes,Entertainment,Low,C,Cash,12/8/2024
+465215,Male,Yes,39,Yes,Executive,High,A,Online Payment,12/9/2024
+466746,Female,Yes,69,Yes,Lawyer,High,C,Online Payment,12/10/2024
+464857,Male,No,18,No,Healthcare,Low,D,Debit Card,12/11/2024
+459478,Male,Yes,46,Yes,Artist,Low,A,Credit Card,12/12/2024
+460723,Female,Yes,50,Yes,Engineer,High,B,Credit Card,12/13/2024
+459853,Male,No,30,No,Executive,Low,A,Credit Card,12/14/2024
+459390,Female,No,41,No,Artist,Low,B,Online Payment,12/15/2024
+460410,Female,No,39,Yes,Artist,Low,D,Online Payment,12/16/2024
+463823,Female,No,29,No,Marketing,Low,D,Credit Card,12/17/2024
+462008,Female,Yes,37,Yes,Artist,Low,B,Online Payment,12/18/2024
+459750,Female,Yes,39,Yes,Engineer,Average,A,Cash,12/19/2024
+459880,Female,Yes,48,Yes,Artist,Average,C,Debit Card,12/20/2024
+459261,Female,No,32,Yes,Doctor,Low,C,Credit Card,12/21/2024
+465656,Male,Yes,78,No,Lawyer,Low,B,Cash,12/22/2024
+465395,Female,Yes,43,No,Engineer,Average,B,Online Payment,12/23/2024
+461631,Male,No,29,No,Marketing,Low,C,Online Payment,12/24/2024
+464904,Female,Yes,28,No,Engineer,Average,A,Debit Card,12/25/2024
+461740,Male,Yes,80,Yes,Lawyer,Low,B,Online Payment,12/26/2024
+467092,Female,No,28,Yes,Healthcare,Low,D,Credit Card,12/27/2024
+464173,Male,Yes,71,Yes,Artist,Average,C,Cash,12/28/2024
+464972,Male,Yes,67,No,Lawyer,High,A,Debit Card,12/29/2024
+467959,Female,No,26,No,Engineer,Low,A,Credit Card,12/30/2024
+467688,Female,Yes,47,Yes,Engineer,Average,C,Debit Card,12/31/2024
+460043,Female,Yes,43,Yes,Artist,Average,B,Online Payment,1/1/2025
+466590,Female,No,27,Yes,Healthcare,Low,C,Online Payment,1/2/2025
+461191,Female,Yes,45,Yes,Marketing,Low,D,Debit Card,1/3/2025
+465662,Male,Yes,76,No,Executive,Low,C,Debit Card,1/4/2025
+459231,Female,Yes,43,Yes,Artist,Average,C,Debit Card,1/5/2025
+466495,Female,Yes,78,Yes,Lawyer,High,B,Cash,1/6/2025
+459192,Male,Yes,35,Yes,Artist,Average,C,Credit Card,1/7/2025
+465710,Female,No,49,Yes,Artist,Low,C,Debit Card,1/8/2025
+460258,Female,No,25,Yes,Healthcare,Low,D,Cash,1/9/2025
+462813,Male,Yes,37,No,Executive,Average,A,Credit Card,1/10/2025
+463595,Female,No,32,No,Healthcare,Low,C,Online Payment,1/11/2025
+467768,Male,Yes,60,Yes,Doctor,Average,C,Credit Card,1/12/2025
+465291,Female,Yes,45,Yes,Artist,Average,C,Credit Card,1/13/2025
+462996,Female,Yes,49,Yes,Homemaker,Average,C,Debit Card,1/14/2025
+463497,Male,No,32,Yes,Artist,Low,D,Cash,1/15/2025
+465301,Female,Yes,40,Yes,Artist,Low,B,Debit Card,1/16/2025
+464702,Male,Yes,59,No,Artist,Average,C,Cash,1/17/2025
+459012,Male,Yes,48,Yes,Artist,Low,B,Cash,1/18/2025
+465053,Male,Yes,82,Yes,Executive,High,C,Credit Card,1/19/2025
+459420,Female,Yes,70,Yes,Lawyer,Low,B,Credit Card,1/20/2025
+464166,Male,No,31,Yes,Artist,Low,B,Debit Card,1/21/2025
+458987,Female,Yes,72,Yes,Lawyer,High,C,Cash,1/22/2025
+467745,Male,Yes,50,Yes,Artist,Average,C,Debit Card,1/23/2025
+464866,Female,No,23,No,Engineer,Low,D,Credit Card,1/24/2025
+461081,Female,No,20,No,Healthcare,Low,D,Debit Card,1/25/2025
+467896,Female,No,22,No,Healthcare,Low,D,Cash,1/26/2025
+463991,Female,No,31,Yes,Engineer,Low,A,Online Payment,1/27/2025
+466620,Female,Yes,36,Yes,Artist,Average,C,Debit Card,1/28/2025
+462594,Male,Yes,52,No,Entertainment,Average,B,Cash,1/29/2025
+462206,Female,No,29,Yes,Artist,Low,B,Debit Card,1/30/2025
+460697,Male,Yes,40,Yes,Artist,Average,C,Online Payment,1/31/2025
+467934,Female,No,40,Yes,Artist,Low,A,Cash,2/1/2025
+460054,Male,Yes,38,Yes,Artist,Low,C,Online Payment,2/2/2025
+459576,Female,Yes,85,No,Lawyer,Low,A,Credit Card,2/3/2025
+467910,Female,No,21,No,Doctor,Low,A,Credit Card,2/4/2025
+467335,Female,Yes,41,No,Engineer,Average,D,Cash,2/5/2025
+460263,Male,Yes,40,Yes,Artist,Low,B,Cash,10/2/2024
+459340,Male,Yes,53,Yes,Artist,Average,B,Debit Card,10/3/2024
+465622,Female,Yes,42,Yes,Artist,Low,C,Online Payment,10/4/2024
+459395,Male,Yes,42,No,Executive,Low,D,Online Payment,10/5/2024
+467539,Male,Yes,48,Yes,Artist,Average,C,Credit Card,10/6/2024
+466574,Male,Yes,59,Yes,Artist,Low,C,Credit Card,10/7/2024
+466544,Male,Yes,41,Yes,Executive,Average,A,Debit Card,10/8/2024
+463610,Female,Yes,31,Yes,Artist,Average,A,Online Payment,10/9/2024
+465539,Female,Yes,49,Yes,Artist,High,B,Online Payment,10/10/2024
+459823,Male,Yes,67,Yes,Executive,Low,A,Online Payment,10/11/2024
+467614,Male,Yes,35,No,Artist,Average,B,Credit Card,10/12/2024
+459073,Female,No,26,Yes,Healthcare,Low,C,Online Payment,10/13/2024
+466065,Male,Yes,19,No,Healthcare,Low,D,Online Payment,10/14/2024
+464863,Female,Yes,25,No,Engineer,Average,D,Online Payment,10/15/2024
+460022,Female,Yes,39,Yes,Healthcare,Low,A,Debit Card,10/16/2024
+459929,Male,Yes,63,Yes,Entertainment,Low,A,Online Payment,10/17/2024
+466613,Male,No,23,No,Healthcare,Low,D,Debit Card,10/18/2024
+461149,Female,No,23,No,Healthcare,Low,D,Credit Card,10/19/2024
+466068,Female,Yes,53,Yes,Artist,Low,C,Credit Card,10/20/2024
+461513,Male,No,33,Yes,Doctor,Low,B,Credit Card,10/21/2024
+464761,Female,Yes,50,No,Engineer,Average,B,Cash,10/22/2024
+466236,Female,Yes,69,Yes,Engineer,Low,B,Cash,10/23/2024
+459664,Male,No,37,Yes,Artist,Low,B,Online Payment,10/24/2024
+461967,Female,No,20,No,Marketing,Low,C,Cash,10/25/2024
+460516,Female,No,85,No,Lawyer,High,C,Credit Card,10/26/2024
+461710,Female,Yes,49,Yes,Doctor,Average,C,Online Payment,10/27/2024
+462742,Male,No,18,No,Healthcare,Low,D,Cash,10/28/2024
+459528,Female,Yes,52,Yes,Doctor,Average,C,Debit Card,10/29/2024
+462691,Male,Yes,25,No,Doctor,Average,B,Cash,10/30/2024
+462934,Male,Yes,56,No,Executive,High,A,Online Payment,10/31/2024
+465837,Male,No,62,Yes,Healthcare,Low,A,Debit Card,11/1/2024
+464613,Female,No,35,No,Artist,Low,B,Credit Card,11/2/2024
+467515,Male,Yes,28,Yes,Engineer,Average,A,Online Payment,11/3/2024
+463429,Female,No,28,Yes,Artist,Low,A,Online Payment,11/4/2024
+464024,Male,No,20,No,Healthcare,Low,D,Cash,11/5/2024
+460691,Female,No,27,No,Homemaker,Low,D,Debit Card,11/6/2024
+461825,Female,No,56,No,Engineer,Low,A,Cash,11/7/2024
+467271,Male,Yes,45,Yes,Artist,Average,B,Online Payment,11/8/2024
+465634,Male,No,25,Yes,Healthcare,Low,B,Debit Card,11/9/2024
+464801,Male,No,40,No,Marketing,Low,D,Online Payment,11/10/2024
+459429,Female,Yes,25,Yes,Healthcare,Low,D,Cash,11/11/2024
+459888,Female,Yes,74,No,Lawyer,High,D,Cash,11/12/2024
+463467,Female,No,23,No,Healthcare,Low,D,Cash,11/13/2024
+462036,Female,Yes,67,Yes,Lawyer,High,B,Cash,11/14/2024
+461282,Male,No,21,No,Healthcare,Low,D,Debit Card,11/15/2024
+460448,Female,No,38,Yes,Artist,Low,A,Debit Card,11/16/2024
+464464,Male,No,28,No,Healthcare,Low,C,Credit Card,11/17/2024
+462410,Female,No,32,No,Healthcare,Low,B,Credit Card,11/18/2024
+467252,Female,No,33,Yes,Marketing,Low,D,Credit Card,11/19/2024
+459756,Female,Yes,56,No,Lawyer,High,B,Online Payment,11/20/2024
+463789,Female,Yes,53,Yes,Artist,Low,C,Online Payment,11/21/2024
+466947,Male,Yes,57,No,Executive,High,C,Cash,11/22/2024
+464150,Female,Yes,59,Yes,Artist,Average,C,Online Payment,11/23/2024
+465693,Female,Yes,25,Yes,Healthcare,High,A,Cash,11/24/2024
+461670,Male,Yes,59,Yes,Artist,Average,C,Debit Card,11/25/2024
+466768,Female,Yes,36,Yes,Artist,Low,C,Debit Card,11/26/2024
+461550,Male,Yes,37,Yes,Entertainment,Low,A,Debit Card,11/27/2024
+462438,Male,No,22,No,Doctor,Low,D,Debit Card,11/28/2024
+460704,Male,Yes,43,Yes,Artist,Low,B,Credit Card,11/29/2024
+464884,Male,Yes,41,Yes,Artist,Low,A,Debit Card,11/30/2024
+467050,Female,No,21,No,Engineer,Low,B,Cash,12/1/2024
+460738,Female,No,49,No,Engineer,Low,A,Online Payment,12/2/2024
+466176,Male,No,38,Yes,Doctor,Low,B,Cash,12/3/2024
+459488,Male,Yes,47,No,Artist,Average,A,Credit Card,12/4/2024
+467773,Male,Yes,70,Yes,Lawyer,High,C,Credit Card,12/5/2024
+465425,Female,No,31,No,Engineer,Low,B,Credit Card,12/6/2024
+462318,Female,Yes,82,No,Lawyer,Average,A,Cash,12/7/2024
+466078,Female,Yes,51,No,Executive,Low,A,Debit Card,12/8/2024
+460792,Female,No,42,No,Homemaker,Low,A,Credit Card,12/9/2024
+460197,Male,No,38,Yes,Artist,Low,A,Debit Card,12/10/2024
+459375,Male,Yes,18,No,Executive,High,A,Debit Card,12/11/2024
+463862,Male,Yes,50,Yes,Artist,Average,C,Credit Card,12/12/2024
+460144,Female,No,46,Yes,Doctor,Low,A,Online Payment,12/13/2024
+462721,Female,Yes,72,No,Lawyer,High,D,Online Payment,12/14/2024
+459637,Female,No,33,No,Engineer,Low,C,Cash,12/15/2024
+465809,Female,No,25,No,Homemaker,Low,B,Debit Card,12/16/2024
+466915,Female,Yes,75,No,Entertainment,High,D,Credit Card,12/17/2024
+467343,Male,No,72,Yes,Artist,Low,B,Cash,12/18/2024
+466268,Female,Yes,72,Yes,Artist,Average,C,Debit Card,12/19/2024
+464868,Male,Yes,36,Yes,Entertainment,Low,A,Debit Card,12/20/2024
+464038,Male,Yes,40,Yes,Artist,Low,A,Online Payment,12/21/2024
+460176,Female,No,28,Yes,Entertainment,Low,C,Debit Card,12/22/2024
+462161,Female,No,28,Yes,Doctor,Low,D,Credit Card,12/23/2024
+464841,Male,Yes,19,No,Entertainment,High,D,Cash,12/24/2024
+464893,Male,Yes,43,Yes,Artist,Low,B,Online Payment,12/25/2024
+464443,Female,Yes,35,Yes,Artist,Average,B,Credit Card,12/26/2024
+467619,Male,Yes,65,Yes,Lawyer,High,B,Debit Card,12/27/2024
+465974,Male,Yes,52,Yes,Executive,High,C,Credit Card,12/28/2024
+462075,Female,No,40,Yes,Artist,Low,B,Debit Card,12/29/2024
+459494,Female,Yes,69,No,Engineer,Low,A,Debit Card,12/30/2024
+466921,Female,No,22,No,Healthcare,Low,D,Online Payment,12/31/2024
+463544,Male,Yes,47,Yes,Executive,Average,C,Cash,1/1/2025
+461167,Male,Yes,29,Yes,Marketing,High,A,Debit Card,1/2/2025
+467364,Male,Yes,46,Yes,Artist,Average,C,Cash,1/3/2025
+462408,Male,No,32,Yes,Artist,Low,A,Credit Card,1/4/2025
+466224,Female,No,38,Yes,Healthcare,Low,C,Credit Card,1/5/2025
+465151,Male,Yes,59,Yes,Artist,Low,B,Online Payment,1/6/2025
+467216,Female,No,26,Yes,Entertainment,Low,D,Credit Card,1/7/2025
+460586,Male,No,26,Yes,Healthcare,Low,A,Online Payment,1/8/2025
+461197,Male,No,28,No,Marketing,Low,D,Debit Card,1/9/2025
+462776,Female,Yes,53,Yes,Engineer,Average,C,Cash,1/10/2025
+465058,Female,No,43,Yes,Entertainment,Low,B,Online Payment,1/11/2025
+464088,Male,No,27,No,Doctor,Low,D,Credit Card,1/12/2025
+459471,Female,No,32,No,Artist,Low,C,Online Payment,1/13/2025
+464695,Male,No,26,No,Engineer,Low,D,Credit Card,1/14/2025
+462331,Female,No,31,No,Entertainment,Low,D,Cash,1/15/2025
+466523,Male,Yes,39,Yes,Executive,High,B,Credit Card,1/16/2025
+465337,Female,Yes,43,No,Engineer,Low,A,Debit Card,1/17/2025
+460834,Male,Yes,25,No,Doctor,Low,A,Online Payment,1/18/2025
+466824,Male,Yes,40,Yes,Artist,High,A,Cash,1/19/2025
